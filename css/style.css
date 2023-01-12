@@ -30,4 +30,17 @@ header{
 }
 .portfolio img{
     width: 500px;
+    border-radius: 30px;
+}
+/* ABOUT */
+.about{
+    background-color: #1abc9c;
+}
+/* location */
+.location{
+    background-color: #3a546d;
+}
+/* copyright */
+.copyright{
+    background-color: #2c3e50;
 }
