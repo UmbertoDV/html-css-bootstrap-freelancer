@@ -1,46 +1,43 @@
-/* HEADER */
-header{
-    background-color: #2c3e50;
-    color: white;
+/* INIZIO CLASSI DI DEBUG DA RIMUOVERE */
+
+header,
+section {
+	border: 2px dashed green;
 }
-.hambu-menu{
-    font-size: 28px;
-    padding: 3px 15px;
-    border: 1px solid white;
-    border-radius: 8px;
-    cursor: pointer;
+
+#header {
+	min-height: 80px;
+	border: 2px dashed green;
 }
-/* Main */
-/* Start BOOTSTRAP */
-.start-bootstrap{
-    background-color: #1abc9c;
+
+[class*="container"] {
+	min-height: 20px;
+	border: 2px dashed orange;
 }
-.start-bootstrap img{
-    width: 10rem;
+
+[class*="col"],
+#jumbotron>.box {
+	min-height: 80px;
+	border: 2px dashed aqua;
 }
-.line{
-    height: 4px;
-    border-radius: 2px;
-    width: 30%;
-    background-color: white;
+
+.box.box-img {
+	height: 300px;
+	width: 300px;
 }
-/* PORTFOLIO */
-.portfolio{
-    background-color: white;
+
+.box.box-icon {
+	height: 10px;
+	width: 500px;
 }
-.portfolio img{
-    width: 500px;
-    border-radius: 30px;
+
+[class*="col"]>.box {
+	min-height: 80px;
+	border: none;
 }
-/* ABOUT */
-.about{
-    background-color: #1abc9c;
-}
-/* location */
-.location{
-    background-color: #3a546d;
-}
-/* copyright */
-.copyright{
-    background-color: #2c3e50;
+
+/* FINE CLASSI DI DEBUG DA RIMUOVERE */
+
+.navbar-dark {
+	background-color: #2c3e50 !important;
 }
