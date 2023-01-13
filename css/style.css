@@ -1,29 +1,33 @@
+
 /* INIZIO CLASSI DI DEBUG DA RIMUOVERE */
 
 header,
 section {
-	border: 2px dashed green;
+	/* border: 2px dashed green; */
 }
 
 #header {
-	min-height: 80px;
-	border: 2px dashed green;
+	/* min-height: 80px; */
+	/* border: 2px dashed green; */
 }
 
 [class*="container"] {
-	min-height: 20px;
-	border: 2px dashed orange;
+	/* min-height: 20px; */
+	/* border: 2px dashed orange; */
 }
 
 [class*="col"],
 #jumbotron>.box {
-	min-height: 80px;
-	border: 2px dashed aqua;
+	/* min-height: 80px; */
+	/* border: 2px dashed aqua; */
 }
 
 .box.box-img {
 	height: 300px;
 	width: 300px;
+}
+.box.box-img > img{
+	height: 100%;
 }
 
 .box.box-icon {
@@ -32,7 +36,7 @@ section {
 }
 
 [class*="col"]>.box {
-	min-height: 80px;
+	/* min-height: 80px; */
 	border: none;
 }
 
@@ -40,4 +44,99 @@ section {
 
 .navbar-dark {
 	background-color: #2c3e50 !important;
+}
+header .navbar a,
+header .navbar h1
+{
+	font-weight: bold;
+}
+
+/* JUMBOTRON */
+#jumbotron{
+	background-color: #1abc9c;
+	color: white;
+}
+#jumbotron .box.box-icon > .line{
+	background-color: white;
+	height: 5px;
+	width: 20%;
+	border-radius: 5px;
+}
+#jumbotron .box.box-icon > .star{
+	color: white;
+	font-size: 30px;
+}
+/* portfolio */
+#portfolio .box.box-icon > .line{
+	background-color: #2c3e50;
+	height: 5px;
+	width: 20%;
+	border-radius: 5px;
+}
+#portfolio .box.box-icon > .star{
+	color: #2c3e50;
+	font-size: 30px;
+}
+#portfolio img{
+	width: 100%;
+	object-fit: cover;
+}
+#portfolio .box.box-img {
+	height: 320px;
+}
+/* ABOUT */
+#about .box.box-icon > .line{
+	background-color: white;
+	height: 5px;
+	width: 20%;
+	border-radius: 5px;
+}
+#about .box.box-icon > .star{
+	color: white;
+	font-size: 30px;
+}
+#about{
+	background-color: #1abc9c;
+	color: white;
+}
+#about a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	padding: 5px 15px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+/* contact me */
+#contacts .box.box-icon > .line{
+	background-color: #2c3e50;
+	height: 5px;
+	width: 20%;
+	border-radius: 5px;
+}
+#contacts .box.box-icon > .star{
+	color: #2c3e50;
+	font-size: 30px;
+}
+#contacts input[type=text]{
+	border: None;
+	padding: 20px;
+	border-bottom: 1px solid black;
+}
+#contacts input[type=submit]{
+	color: white;
+	background-color: #1abc9c;
+	border-style: solid;
+	border-radius: 10px;
+	border: 1px solid gray;
+	padding: 5px 15px;
+}
+#contacts textarea{
+	border: None;
+	padding: 20px;
+	border-bottom: 1px solid black;
+}
+/* Upper footer */
+.upper-footer{
+	background-color: #3a546d;
 }

@@ -13,27 +13,49 @@
 	<!-- BOOTSTRAP -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 	<!-- CUSTOM CSS -->
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 	<header id="header">
-
-		<!-- TODO: INSERIRE IL COMPONENTE NAVBAR -->
-
+		<nav class="navbar navbar-dark navbar-expand-md bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><h1>START BOOTSTRAP</h1></a>
+			  	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			  	</button>
+			  	<div class="collapse navbar-collapse flex-grow-0" id="navbarNav" >
+					<ul class="navbar-nav">
+				  		<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+				  		</li>
+				  		<li class="nav-item">
+							<a class="nav-link active" href="#">ABOUT</a>
+				  		</li>
+				  		<li class="nav-item">
+							<a class="nav-link active" href="#">CONTACT</a>
+				  		</li>
+					</ul>
+			  	</div>
+			</div>
+		</nav>
 	</header>
 
 	<main>
 		<!-- JUMBOTRON -->
 		<section id="jumbotron" class="d-flex flex-column align-items-center text-center text-uppercase py-5">
 			<div class="box box-img">
-				<!-- <img src="" alt=""> -->
+				<img src="./img/avatar.svg" alt="">
 			</div>
-			<h1>WEBSITE TITLE</h1>
-			<div class="box box-icon"></div>
-			<p>link - link - link</p>
+			<h1><strong>START BOOTSTRAP</strong></h1>
+			<div class="box box-icon d-flex justify-content-center align-items-center py-3">
+				<div class="line"></div>
+				<span class="star px-4"><i class="bi bi-star-fill"></i></span>
+				<div class="line"></div>
+			</div>
+			<p><strong>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</strong></p>
 		</section>
 
 		<!-- PORTFOLIO -->
@@ -42,32 +64,46 @@
 				<div class="row">
 					<div class="col-12 d-flex flex-column align-items-center text-center">
 						<h1>
-							SECTION TITLE
+							<strong>PORTFOLIO</strong>
 						</h1>
-						<div class="box box-icon">
-							icon
+						<div class="box box-icon d-flex justify-content-center align-items-center py-3">
+							<div class="line"></div>
+							<span class="star px-4"><i class="bi bi-star-fill"></i></span>
+							<div class="line"></div>
 						</div>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="box box-img"></div>
+					<div class="col-12 col-md-6 col-lg-4 p-3">
+						<div class="box box-img w-100 d-flex justify-content-center">
+							<img src="./img/cabin.png" alt="Cabina" class="rounded-4">
+						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="box box-img"></div>
+					<div class="col-12 col-md-6 col-lg-4 p-3">
+						<div class="box box-img w-100 d-flex justify-content-center">
+							<img src="./img/cake.png" alt="Cabina" class="rounded-4">
+						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="box box-img"></div>
+					<div class="col-12 col-md-6 col-lg-4 p-3">
+						<div class="box box-img w-100 d-flex justify-content-center">
+							<img src="./img/circus.png" alt="Cabina" class="rounded-4">
+						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="box box-img"></div>
+					<div class="col-12 col-md-6 col-lg-4 p-3">
+						<div class="box box-img w-100 d-flex justify-content-center">
+							<img src="./img/game.png" alt="Cabina" class="rounded-4">
+						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="box box-img"></div>
+					<div class="col-12 col-md-6 col-lg-4 p-3">
+						<div class="box box-img w-100 d-flex justify-content-center">
+							<img src="./img/safe.png" alt="Cabina" class="rounded-4">
+						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="box box-img"></div>
+					<div class="col-12 col-md-6 col-lg-4 p-3">
+						<div class="box box-img w-100 d-flex justify-content-center">
+							<img src="./img/submarine.png" alt="Cabina" class="rounded-4">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -79,31 +115,29 @@
 				<div class="row">
 					<div class="col-12 d-flex flex-column align-items-center text-center">
 						<h1>
-							SECTION TITLE
+							ABOUT
 						</h1>
-						<div class="box box-icon">
-							icon
+						<div class="box box-icon d-flex justify-content-center align-items-center py-3">
+							<div class="line"></div>
+							<span class="star px-4"><i class="bi bi-star-fill"></i></span>
+							<div class="line"></div>
 						</div>
 					</div>
 				</div>
 
 				<!-- Allineamento colonne metodo 1 -->
-				<div class="row justify-content-center">
-					<div class="col-10 col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-						placeat, cum
-						autem ipsa tenetur provident adipisci totam. Consequatur, repudiandae quas quaerat odit magnam,
-						sapiente dicta error, ratione laudantium alias expedita.</div>
-					<div class="col-10 col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-						placeat, cum
-						autem ipsa tenetur provident adipisci totam. Consequatur, repudiandae quas quaerat odit magnam,
-						sapiente dicta error, ratione laudantium alias expedita.</div>
+				<div class="row justify-content-center py-4">
+					<div class="col-10 col-md-5">
+						Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+					</div>
+					<div class="col-10 col-md-5">
+						Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+					</div>
 
 					<div class="w-100"></div>
 
-					<div class="col-auto">
-						<button type="button">
-							Download
-						</button>
+					<div class="col-auto m-2 pt-4">
+						<a href="#"><i class="bi bi-download"></i> Dowload</a>
 					</div>
 				</div>
 
@@ -137,34 +171,36 @@
 				<div class="row">
 					<div class="col-12 d-flex flex-column align-items-center text-center">
 						<h1>
-							SECTION TITLE
+							<strong>CONTACT ME</strong>
 						</h1>
-						<div class="box box-icon">
-							icon
+						<div class="box box-icon d-flex justify-content-center align-items-center py-3">
+							<div class="line"></div>
+							<span class="star px-4"><i class="bi bi-star-fill"></i></span>
+							<div class="line"></div>
 						</div>
 					</div>
 				</div>
 
 
 				<form action="https:tizianonicolai.com/lezioni/form-printer" method="GET"
-					class="row justify-content-center">
-					<div class="col-10">
-						<input type="text">
+					class="row flex-column align-items-center">
+					<div class="col-10 text-center">
+						<input type="text" value="Name">
 					</div>
-					<div class="col-10">
-						<input type="text">
+					<div class="col-10 text-center">
+						<input type="text" value="Email Address">
 					</div>
-					<div class="col-10">
-						<input type="text">
+					<div class="col-10 text-center">
+						<input type="text" value="Phone Number">
 					</div>
-					<div class="col-10">
-						<input type="text">
+					<div class="col-10 text-center">
+						<input type="text" value="Phone Number">
 					</div>
-					<div class="col-10">
-						<textarea name="" id="" cols="30" rows="10"></textarea>
+					<div class="col-10 text-center">
+						<textarea name="" id="" cols="30" rows="10" placeholder="">Message</textarea>
 					</div>
-					<div class="col-10">
-						<input type="submit" value="">
+					<div class="col-10 pt-3">
+						<input type="submit" value="Send">
 					</div>
 				</form>
 
@@ -206,12 +242,12 @@
 	</footer>
 
 	<!-- CDN JAVASCRIPT PER BOOTSTRAP -->
-	<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
 		crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
 		integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-		crossorigin="anonymous"></script> -->
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
